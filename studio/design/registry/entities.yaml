@@ -1,0 +1,54 @@
+# Shared entities and values for Signal in the Fog
+
+entities:
+  player:
+    canonical_name: Mara Voss
+    scale_m: 1.75
+  chapters:
+    - id: gatehouse
+      relay_id: relay_01
+      target_frequency: 62
+      objective_count: 1
+      battery_pickup_ids: [battery_gatehouse]
+      hide_volume_ids: [hide_gatehouse_locker]
+    - id: service_tunnels
+      relay_id: relay_02
+      target_frequency: 38
+      objective_count: 1
+      battery_pickup_ids: [battery_tunnels]
+      hide_volume_ids: [hide_tunnels_01, hide_tunnels_02]
+    - id: summit_array
+      relay_id: relay_03
+      target_frequency: 77
+      objective_count: 1
+      battery_pickup_ids: [battery_summit]
+      hide_volume_ids: [hide_summit_console]
+  threat:
+    id: fog_listener
+    exposure_max: 100
+    suspicion_max: 100
+  resources:
+    battery_max: 100
+    battery_start: 85
+    battery_pickup: 25
+  narrative:
+    clue_total: 6
+    answer_threshold: 3
+  interaction:
+    interact_radius_m: 2.0
+    relay_repair_seconds: 5.0
+    signal_tolerance: 2.0
+
+ownership:
+  chapter_state: [activeChapter, gamePhase, endingChoice]
+  signal_relay: [signalMode, currentFrequency, relayProgress]
+  battery: [batteryPercent, batteryCharges]
+  threat: [threatState, threatExposure, threatSuspicion]
+  narrative: [clueFlags, endingEligibility]
+  settings: [sensitivity, brightness, subtitles, reducedFlash, vibration]
+
+units:
+  distance: meters
+  time: seconds
+  frequency: normalized_percent
+  battery: percent

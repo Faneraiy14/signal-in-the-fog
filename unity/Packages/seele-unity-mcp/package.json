@@ -1,0 +1,16 @@
+{
+  "name": "com.seele.seele-unity-mcp",
+  "version": "1.0.0",
+  "displayName": "MCP for Unity",
+  "description": "A bridge that connects an LLM to Unity via MCP.",
+  "unity": "6000.0",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.0.2",
+    "com.unity.cloud.draco": "5.2.0",
+    "com.unity.cloud.gltfast": "6.13.1"
+  },
+  "author": {
+    "name": "Seele",
+    "url": "https://seele.com/"
+  }
+}

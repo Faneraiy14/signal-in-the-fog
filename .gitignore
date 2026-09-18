@@ -1,0 +1,54 @@
+# Unity generated
+unity/[Ll]ibrary/
+unity/[Tt]emp/
+unity/[Oo]bj/
+unity/[Bb]uild/
+unity/[Bb]uilds/
+unity/[Ll]ogs/
+unity/[Uu]ser[Ss]ettings/
+unity/MemoryCaptures/
+unity/Recordings/
+unity/[Aa]sset[Ss]tore[Tt]ools/
+unity/[Aa]sset[Ss]tore[Tt]oolsExtra/
+unity/CrashReports/
+unity/*.csproj
+unity/*.unityproj
+unity/*.sln
+unity/*.suo
+unity/*.tmp
+unity/*.user
+unity/*.userprefs
+unity/*.pidb
+unity/*.booproj
+unity/*.svd
+unity/*.pdb
+unity/*.mdb
+unity/*.opendb
+unity/*.VC.db
+unity/*.pidb.meta
+unity/*.pdb.meta
+unity/*.mdb.meta
+unity/sysinfo.txt
+unity/*.apk
+unity/*.aab
+unity/*.unitypackage
+unity/*.app
+unity/*.exe
+unity/ExportedObj/
+unity/.vs/
+unity/.idea/
+unity/*.log
+
+# License and local editor noise
+unity/tmp/
+unity/Temp/
+*.ulf
+*.alf
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local agent scratch
+local_state/
